@@ -1,0 +1,31 @@
+{
+  "name": "online-shop",
+  "version": "1.0.0",
+  "description": "Asian ecommerce store",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon index.js",
+    "dev": "concurrently \"npm run server\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denmercs/online-shop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denmercs/online-shop/issues"
+  },
+  "homepage": "https://github.com/denmercs/online-shop#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "concurrently": "^5.3.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^4.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.4",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
